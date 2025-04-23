@@ -1,0 +1,1 @@
+web: python core/flask_app.py
