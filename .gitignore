@@ -1,4 +1,7 @@
 .env
 *.pyc
 __pycache__/
-ixome/  # Virtual environmentcredentials.json
+credentials.json
+*.json
+*.swp
+ixome-googlejson/
