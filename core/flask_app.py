@@ -14,7 +14,7 @@ print("Starting flask_app.py execution")
 # Initialize Flask app
 print("Initializing Flask app")
 app = Flask(__name__)
-CORS(app)  # Allow cross-origin requests, e.g., from WordPress
+CORS(app, resources={r"/*": {"origins": "https://ixome.ai"}})
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
