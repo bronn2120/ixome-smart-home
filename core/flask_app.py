@@ -14,7 +14,7 @@ print("Starting flask_app.py execution")
 # Initialize Flask app
 print("Initializing Flask app")
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://ixome.ai"}})
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

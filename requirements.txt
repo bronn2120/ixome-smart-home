@@ -124,3 +124,4 @@ wsproto==1.2.0
 xxhash==3.5.0
 zope.interface==7.2
 zstandard==0.23.0
+flask_cors==5.0.1
